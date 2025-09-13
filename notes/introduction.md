@@ -1,0 +1,28 @@
+- **Natural Language Processing**
+	- natural language = languages that evolved through human use example: english, french etc.
+	- unnatural language example: code
+	- **Processing** types:
+		- supervised learning = map text to X
+		- unsupervised learning = learn X from text
+		- generation of text
+		- reinforcement learning
+	- Most of these applications are performed today with Large Language Models (LLMs)
+- Linguistic Hierarchy
+	- characters -> morphology -> words ->  constituents (phrases) -> semantics -> discourse
+	- characters -> morphology -> words are important for Tokenization
+- **Language Modeling**
+	- given the beginning of a sentence/document (prefix/prompt), model predicts the next word
+	- this is self supervised learning
+		- supervised vs self-supervised
+			- supervised has limited size of training data whereas in nlp we have huge amounts of texts on the internet.
+			- SSL does not require training labels.
+	- common paradigms
+		- pre-training
+			- train from scratch language models on trillions of words
+				- only some organizations are able to do it right now
+					- OpenAI, anthropic, google, Deepseek
+		- finetuning
+			- if we are able to get their parameters
+			- specializing the model on set of tasks
+		- prompt model to solve new tasks
+- Comparing LLMs: https://lmarena.ai/
